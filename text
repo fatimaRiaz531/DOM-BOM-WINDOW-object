@@ -1,0 +1,16 @@
+Here's a brief overview of the DOM, BOM, and Window object in JavaScript:
+
+1. **DOM (Document Object Model)**:
+   - The DOM is a representation of the HTML and XML documents as a tree structure where each node is an object representing a part of the document.
+   - It allows JavaScript to interact with and manipulate the document's content, structure, and style.
+   - Common methods include `getElementById`, `querySelector`, and `createElement`.
+
+2. **BOM (Browser Object Model)**:
+   - The BOM provides the interface for interacting with the browser window and the environment around the document.
+   - It includes objects like `navigator`, `screen`, `history`, and `location` that allow control over the browser.
+   - Examples of BOM usage are redirecting the user with `location.href` or navigating through browser history with `history.back()`.
+
+3. **Window Object**:
+   - The `window` object is the global object in the browser environment that represents the window containing the DOM document.
+   - It acts as the root object for all BOM and DOM objects and functions, providing methods like `alert`, `setTimeout`, and properties like `innerWidth` and `localStorage`.
+   - Essentially, all global variables and functions in JavaScript are properties of the `window` object.

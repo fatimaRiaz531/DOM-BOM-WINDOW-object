@@ -1,0 +1,44 @@
+<!-- dom -->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <p id="demo">Hello, world!</p>
+    <button onclick="changeText()">Change Text</button>
+    <script>
+        function changeText() {
+            document.getElementById("demo").innerText = "Hello, DOM!";
+        }
+    </script>
+</body>
+</html>
+
+
+<!-- bom -->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <button onclick="redirect()">Go to Google</button>
+    <script>
+        function redirect() {
+            location.href = "https://www.google.com";
+        }
+    </script>
+</body>
+</html>
+
+
+<!-- window object -->
+
+<!DOCTYPE html>
+<html>
+<body>
+    <button onclick="showAlert()">Show Alert</button>
+    <script>
+        function showAlert() {
+            window.alert("This is an alert box!");
+        }
+    </script>
+</body>
+</html>
